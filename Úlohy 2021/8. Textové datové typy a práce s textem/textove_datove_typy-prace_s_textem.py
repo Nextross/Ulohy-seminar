@@ -106,5 +106,3 @@ def e_2():
     print(f"Počet e: {count_e}")
     print("Opačné pořadí:", *word_list_reversed)
     print("Opačná slova:", *words_reversed_list)
-
-
