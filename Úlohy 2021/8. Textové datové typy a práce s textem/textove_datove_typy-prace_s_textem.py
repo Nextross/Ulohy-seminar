@@ -107,3 +107,4 @@ def e_2():
     print("Opačné pořadí:", *word_list_reversed)
     print("Opačná slova:", *words_reversed_list)
 
+
