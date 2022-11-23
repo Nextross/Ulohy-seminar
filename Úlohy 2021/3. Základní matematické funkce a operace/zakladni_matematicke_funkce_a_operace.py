@@ -18,7 +18,6 @@ def a():
         for value in chart:
             # Přidá na každý řádek "rozbalený" seznam hodnot
             chart_file.writelines(" ".join([str(i) for i in value]) + "\n")
-            print(*value)
 
 
 def b(num):
@@ -31,6 +30,7 @@ def b(num):
     if num >= 0:
         print(num ** (1/3))
     else:
+        # Obchází problém s mocninou ze záporného čísla
         print(-((-num) ** (1/3)))
 
 
@@ -46,7 +46,7 @@ def c():
     print(math.sqrt(num_sum))
 
 
-def d(num):
+def d(base, power):
     """
     V programovacím jazyku není k dispozici obecná mocnina (např. 3 na sedmou).
     Ale jsou k dispozici funkce ln(x) a exp(x). Napište vlastní funkci se dvěma vstupními
