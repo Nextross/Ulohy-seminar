@@ -37,10 +37,13 @@ def b(num):
 def c():
     """
     Napište program, který pomocí cyklu vypočítá součet prvních 20 členů
-    konvergentní číselné řady od 1 do 40: 6/n**2
+    konvergentní číselné řady od 1 do 40: 6/n**2. Vypište potom na obrazovku
+    druhou odmocninu z vypočítaného součtu
     """
+    # Otázka je poněkud zavádějící, "prvních 2O členů" a "řada od 1 do 40"
+    # V obou případech je řešení stejné, akorát se změní počet opakování
     num_sum = 0
-    for i in range(1, 41):
+    for i in range(1, 21):
         num_sum += 6 / (i ** 2)
 
     print(math.sqrt(num_sum))
