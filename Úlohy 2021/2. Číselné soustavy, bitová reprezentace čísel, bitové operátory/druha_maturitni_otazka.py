@@ -66,12 +66,12 @@ def c():
     while True:
         try:
             num = int(input("Zadej celé číslo: "))
-            if not 0 <= num <= 256*256-1:  # Pokud je číslo záporné nebo větší než 255, vyhodí program chybu
+            if not 0 <= num <= 256*256-1:
                 raise ValueError
             else:
                 hex_ = hex(num).removeprefix("0x").upper()
                 break
-        except ValueError:  # Zachytí chybu, cyklus začne znovu, dokud uživatel nezadá správné číslo
+        except ValueError:
             print("Zadané číslo je záporné nebo větší než 8 bitů")
 
     print(hex_)
