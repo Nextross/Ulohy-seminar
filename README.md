@@ -1,6 +1,6 @@
 # Ulohy-seminar
-Tento repozitář slouží jako úložiště řešení k procvičovacím úlohám ze semináře PaPM.
-Je především určen začátečníkům a mírně pokročilím, ale i pokročilí programátoři si
+Tento repozitář slouží jako úložiště řešení k cvičným úlohám ze semináře PaPM.
+Je především určen začátečníkům a mírně pokročilým, ale i pokročilí programátoři si
 zde mohou ověřit své znalosti.
 
 Zároveň bych tak chtěl upozornit, že tento repozitář

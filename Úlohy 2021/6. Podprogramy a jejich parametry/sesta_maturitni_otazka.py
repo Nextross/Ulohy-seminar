@@ -17,6 +17,8 @@ def c_1():
     Napište program, který vypočítá faktoriál zadaného čísla
     """
     input_num = int(input("Zadej číslo: "))
+    while input_num < 0:
+        input_num = int(input("Zadej číslo: "))
     result = 1
     for num in range(1, input_num + 1):
         result *= num
@@ -26,11 +28,13 @@ def c_1():
 
 def c_2():
     factorial = 1
-    number = int(input("zadejte cislo"))
+    number = int(input("Zadej číslo: "))
+    while number < 0:
+        number = int(input("Zadej číslo: "))
     for k in range(1, number + 1):
         factorial = factorial * k
 
-    print("faktorial csila ", number, " je: ", factorial)
+    print("Faktoriál čísla", number, " je: ", factorial)
 
 
 def c_3(num):
@@ -52,7 +56,6 @@ def e_1(string):
 
 def e_2(string):
     new_word = ""
-
     for letter in string:
         new_word += chr(ord(letter) + 1)
 
